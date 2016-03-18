@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="com.sukhjinder.myappportfolio.MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nano degree apps!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/SpotifyStreamerbutton"
+        android:background="#F08C35"
+        android:layout_marginTop="30dp"
+        android:layout_above="@+id/ScoresAppbutton"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="SCORES APP"
+        android:id="@+id/ScoresAppbutton"
+        android:layout_above="@+id/LibraryAppbutton"
+        android:layout_marginTop="15dp"
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/SpotifyStreamerbutton"
+        android:layout_alignEnd="@+id/SpotifyStreamerbutton"
+        android:layout_alignLeft="@+id/SpotifyStreamerbutton"
+        android:layout_alignStart="@+id/SpotifyStreamerbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="LIBRARY APP"
+        android:id="@+id/LibraryAppbutton"
+        android:layout_above="@+id/BuildItBiggerbutton"
+        android:layout_alignLeft="@+id/ScoresAppbutton"
+        android:layout_alignStart="@+id/ScoresAppbutton"
+        android:layout_marginTop="15dp"
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/ScoresAppbutton"
+        android:layout_alignEnd="@+id/ScoresAppbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/BuildItBiggerbutton"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:background="#F08C35"
+        android:layout_alignLeft="@+id/LibraryAppbutton"
+        android:layout_alignStart="@+id/LibraryAppbutton"
+        android:layout_alignRight="@+id/LibraryAppbutton"
+        android:layout_alignEnd="@+id/LibraryAppbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="XYZ READER"
+        android:id="@+id/XYZReaderbutton"
+        android:layout_below="@+id/BuildItBiggerbutton"
+        android:layout_marginTop="15dp"
+        android:background="#F08C35"
+        android:layout_alignLeft="@+id/BuildItBiggerbutton"
+        android:layout_alignStart="@+id/BuildItBiggerbutton"
+        android:layout_alignRight="@+id/BuildItBiggerbutton"
+        android:layout_alignEnd="@+id/BuildItBiggerbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="CAPSTONE:MY OWN APP"
+        android:id="@+id/Capstonebutton"
+        android:background="#f22e3f"
+        android:layout_below="@+id/XYZReaderbutton"
+        android:layout_marginTop="15dp"
+        android:layout_alignRight="@+id/XYZReaderbutton"
+        android:layout_alignEnd="@+id/XYZReaderbutton"
+        android:layout_alignLeft="@+id/XYZReaderbutton"
+        android:layout_alignStart="@+id/XYZReaderbutton"
+        android:textColor="#ffffff"
+        />
+
+
+</RelativeLayout>
